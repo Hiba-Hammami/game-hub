@@ -13,6 +13,7 @@ export interface Game {
   slug: string;
   background_image: string;
   platforms: { platform: Platform }[];
+  metacritic: number;
 }
 
 interface FetchGamesRes {
